@@ -4,11 +4,12 @@ A simple patatap clone project using paper.js and howler.js.
 
 ## Known Issues
 
-Due to cross-origins issues, it's not possible to preview the project on Chrome. It's advisable to test it using FireFox, or run it into a local server. In order to do that, there are a couple of simple methods:
+Due to cross-origins issues, it's not possible to preview the project on Chrome. It's advisable to test it using FireFox, or run it into a local server. In order to do that, there are a couple of simple methods available:
 
 + Launch a local server with Python (open the console and type):
 
   `python -m http.server` (for Python 3x);
+
   `python -m SimpleHTTPServer` (for Python 2x);
 
 Then proceed to the default address `http://localhost:8000`.
