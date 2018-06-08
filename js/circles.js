@@ -248,15 +248,16 @@ function onFrame(event) {
 
 // Change background effect on spacebar keypress
 document.addEventListener('keydown', spaceBar);
+
 function spaceBar(e) {
-var keyCode = e.keyCode;
+    var keyCode = e.keyCode;
     if (keyCode === 32) {
         document.querySelector('#myCanvas').style.backgroundColor = getRandomColor();
     }
 }
 
 // Generate random background color
-function getRandomColor () {
+function getRandomColor() {
     var hex = Math.floor(Math.random() * 0xFFFFFF);
     return "#" + ("000000" + hex.toString(16)).substr(-6);
-  }
+}
